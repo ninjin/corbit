@@ -1,7 +1,7 @@
 #!/bin/sh
 
-BIN=bin/corbit-0.0.1.jar
-JAVA=/home/hatori/local/java/bin/java
+BIN=lib/corbit.jar
+JAVA=java
 
 mode=$1
 shift

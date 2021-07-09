@@ -1,2 +1,20 @@
 http://triplet.cc/software/corbit/
 
+Steps to run
+
+1. run 'gradlewbuild'
+
+2. cd output/corbit
+
+3. follow instructions on http://triplet.cc/software/corbit/ running corbit.sh form that directory
+
+If you want to put in an intellij or eclipse IDE, run the below and then import in eclipse(open project in intellij)...
+
+gradlew idea
+
+or
+
+gradlew eclipse
+
+on windows gradlew will run the gradlew.bat file and on linux/mac, it will use the gradlew file ;).
+
